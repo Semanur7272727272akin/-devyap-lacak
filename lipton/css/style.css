@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fresh-spring-background.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+.container{
+    margin:auto;
+    width:70%;;
+
+
+}
+#logo{
+   text-align:center;
+   padding: 24px;
+}
+#logo img{
+     width:150px;
+     
+}
+#menu li{
+display: inline-block;
+
+}
+#menu{
+    background-color: white;
+    box-shadow: 0 0 5px #95a5a6;
+    text-align: center;
+}
+
+#menu a{
+    display: inline-block;
+    padding:10px 60px;
+    text-decoration: none;
+    color: red;
+    font-weight:bold;
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+#menu a:hover{
+    background-color: yellow;
+    color: red;
+    transition: 0.4s;
+
+}
